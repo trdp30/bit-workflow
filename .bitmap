@@ -15,6 +15,12 @@
         "mainFile": "index.js",
         "rootDir": "my-scope/elements/button"
     },
+    "modules/date-picker": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.js",
+        "rootDir": "tutorial/modules/date-picker"
+    },
     "ui/card": {
         "scope": "mybittutorial.tutorial",
         "version": "0.0.2",

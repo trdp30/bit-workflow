@@ -19,7 +19,13 @@
         "scope": "",
         "version": "",
         "mainFile": "index.js",
-        "rootDir": "tutorial/modules/date-picker"
+        "rootDir": "tutorial/modules/date-picker",
+        "nextVersion": {
+            "version": "patch",
+            "message": "date-picker should get export from github",
+            "username": "trdp30",
+            "email": "trdp30@gmail.com"
+        }
     },
     "ui/card": {
         "scope": "mybittutorial.tutorial",

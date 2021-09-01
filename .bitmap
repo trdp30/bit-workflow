@@ -16,16 +16,10 @@
         "rootDir": "my-scope/elements/button"
     },
     "modules/date-picker": {
-        "scope": "",
-        "version": "",
+        "scope": "mybittutorial.tutorial",
+        "version": "0.0.1",
         "mainFile": "index.js",
-        "rootDir": "tutorial/modules/date-picker",
-        "nextVersion": {
-            "version": "patch",
-            "message": "date-picker should get export from github",
-            "username": "trdp30",
-            "email": "trdp30@gmail.com"
-        }
+        "rootDir": "tutorial/modules/date-picker"
     },
     "ui/card": {
         "scope": "mybittutorial.tutorial",

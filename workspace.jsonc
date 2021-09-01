@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "my-scope"
+    "defaultScope": "mybittutorial.tutorial"
   },
   /**
    * main configuration for component dependency resolution.
@@ -36,11 +36,24 @@
     /**
      * choose the package manager for Bit to use. you can choose between 'yarn', 'pnpm'
      */
-    "packageManager": "teambit.dependencies/pnpm",
+    "packageManager": "teambit.dependencies/yarn",
     "policy": {
-      "dependencies": {},
-      "peerDependencies": {}
-    }
+      "dependencies": {
+        "@fontsource/roboto": "^4.5.0",
+        "@material-ui/core": "^4.12.3"
+      },
+      "peerDependencies": {
+        "react": "17.0.2",
+        "react-dom": "17.0.2"
+      }
+    },
+    "packageManagerArgs": [],
+    "devFilePatterns": [
+      "**/*.spec.ts"
+    ],
+    "strictPeerDependencies": true,
+    "installFromBitDevRegistry": true,
+    "savePrefix": ""
   },
   /**
    * workspace variants allow to set different subsets of configuration for components in your
@@ -57,7 +70,7 @@
       /**
        * uncomment to apply the chosen environment on all components.
        **/
-      "teambit.react/react": { }
+      "teambit.react/react": {}
     }
   }
 }

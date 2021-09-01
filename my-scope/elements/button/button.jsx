@@ -1,9 +1,10 @@
 import React from 'react';
+import Btn from '@material-ui/core/Button';
 
-export function Button({ text }) {
+export function Button({ text, variant="contained", color="primary" }) {
   return (
-    <div>
+    <Btn variant={variant} color={color}>
       {text}
-    </div>
+    </Btn>
   );
 }

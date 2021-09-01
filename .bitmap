@@ -10,10 +10,16 @@
 
 {
     "elements/button": {
-        "scope": "",
-        "version": "",
+        "scope": "mybittutorial.tutorial",
+        "version": "0.0.1",
         "mainFile": "index.js",
         "rootDir": "my-scope/elements/button"
+    },
+    "ui/card": {
+        "scope": "mybittutorial.tutorial",
+        "version": "0.0.2",
+        "mainFile": "index.js",
+        "rootDir": "tutorial/ui/card"
     },
     "$schema-version": "14.9.0"
 }

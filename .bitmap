@@ -27,5 +27,11 @@
         "mainFile": "index.js",
         "rootDir": "tutorial/ui/card"
     },
+    "ui/input": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.js",
+        "rootDir": "tutorial/ui/input"
+    },
     "$schema-version": "14.9.0"
 }

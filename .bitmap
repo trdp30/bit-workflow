@@ -31,7 +31,13 @@
         "scope": "",
         "version": "",
         "mainFile": "index.js",
-        "rootDir": "tutorial/ui/input"
+        "rootDir": "tutorial/ui/input",
+        "nextVersion": {
+            "version": "patch",
+            "message": "new input component added",
+            "username": "trdp30",
+            "email": "trdp30@gmail.com"
+        }
     },
     "$schema-version": "14.9.0"
 }
